@@ -1,5 +1,5 @@
 #!/bin/bash
-az aks get-credentials --resource-group aksansibletest5 --name aksansibletest5
+az aks get-credentials --resource-group aksansibletest6 --name aksansibletest6
 kubectl get nodes
 kubectl get pods -n kube-system
 git clone https://github.com/Azure/kubernetes-hackfest.git
