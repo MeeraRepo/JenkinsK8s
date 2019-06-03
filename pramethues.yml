@@ -1,5 +1,5 @@
 ---
-- host: AnsibleMaster
+- hosts: localhost
   tasks:
      - name: Install prometheus on AKS
-       script: /home/ansible/pramethus.sh
+       script: /tmp/workspace/prometheustest/JenkinsK8s/prometheus.sh
