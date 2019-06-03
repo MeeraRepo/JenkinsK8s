@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
      - name: Install prometheus on AKS
-       script: /tmp/workspace/prometheustest/JenkinsK8s/prometheus.sh
+       script: /tmp/workspace/K8s/JenkinsK8s/prometheus.sh
