@@ -1,8 +1,8 @@
 ---
 - hosts: localhost
   vars:
-      resource_group: aksansibletest5
-      name: aksansibletest5
+      resource_group: aksansibletest6
+      name: aksansibletest6
       location: eastus
   tasks:
      - name: Ensure resource group exists
